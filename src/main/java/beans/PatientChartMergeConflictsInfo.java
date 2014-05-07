@@ -1,12 +1,4 @@
-/*
- * Copyright 2013 by Nightingale Informatix Corp.,
- * All rights reserved.
- *
- * This software is the confidential and proprietary information
- * of Nightingale Informatix Corp.
- *
- * @author Sergio Couture
- */
+
 package beans;
 
 

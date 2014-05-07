@@ -1,13 +1,4 @@
-/*
- *
- * Copyright 2009 by Medrium, Inc.,
- * All rights reserved.
- *
- * This software is the confidential and proprietary information
- * of Medrium, Inc.
- *
- * @author Patrick Vachon
- */
+
 package beans;
 
 import java.lang.annotation.Documented;
