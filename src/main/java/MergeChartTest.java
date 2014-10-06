@@ -3,12 +3,18 @@ import beans.DBTableMap;
 import beans.PatientAddress;
 import beans.PatientChartMergeConflictsInfo;
 import beans.PatientInfo;
+import org.xml.sax.SAXException;
 
+import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.stream.XMLStreamException;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by vguriev on 5/6/2014.
@@ -161,18 +167,23 @@ public class MergeChartTest {
 
     }
 
-    public static void main(String [] args) throws InvocationTargetException, IllegalAccessException {
-       MergeChartTest svc = new MergeChartTest();
-        svc.createPatients();
-        svc.seeDiff();
+    public static void main(String [] args) throws InvocationTargetException, IllegalAccessException, IOException, XMLStreamException, ParserConfigurationException, SAXException {
+//        ReportParser1 parser = new ReportParser1();
+//        parser.read("test.xml");
 
 
-        //did something on UI side, diff came back
-
-        svc.applyDiff();
+        ReportMetadataParser parser = new ReportMetadataParser("report1.xml", "WebReports.xml");
+        parser.read();
+////////////////////////////////////////////////////////////
+//       MergeChartTest svc = new MergeChartTest();
+//        svc.createPatients();
+//        svc.seeDiff();
+//
+//
+//        //did something on UI side, diff came back
+//
+//        svc.applyDiff();
 
     }
-
-
 
 }

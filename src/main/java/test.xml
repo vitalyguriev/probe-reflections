@@ -1,0 +1,227 @@
+<reportlist>
+    <entity>
+        <name>QB1486</name>
+        <leaf_flag>false</leaf_flag>
+        <readonly_flag>false</readonly_flag>
+        <entity>
+            <name>Data Services</name>
+            <leaf_flag>false</leaf_flag>
+            <readonly_flag>false</readonly_flag>
+            <entity>
+                <name>Patient Face Sheet - AIDAN</name>
+                <leaf_flag>true</leaf_flag>
+                <readonly_flag>false</readonly_flag>
+            </entity>
+            <entity>
+                <name>Patient Face Sheet</name>
+                <leaf_flag>true</leaf_flag>
+                <readonly_flag>false</readonly_flag>
+            </entity>
+        </entity>
+        <entity>
+            <name>Reports</name>
+            <leaf_flag>false</leaf_flag>
+            <readonly_flag>false</readonly_flag>
+            <entity>
+                <name>Activity by Payer</name>
+                <leaf_flag>true</leaf_flag>
+                <readonly_flag>false</readonly_flag>
+            </entity>
+            <entity>
+                <name>Activity by Service Code</name>
+                <leaf_flag>true</leaf_flag>
+                <readonly_flag>false</readonly_flag>
+            </entity>
+            <entity>
+                <name>charges by month</name>
+                <leaf_flag>true</leaf_flag>
+                <readonly_flag>false</readonly_flag>
+            </entity>
+            <entity>
+                <name>Daily Schedule Report1</name>
+                <leaf_flag>true</leaf_flag>
+                <readonly_flag>false</readonly_flag>
+            </entity>
+            <entity>
+                <name>Daily Schedule Report2</name>
+                <leaf_flag>true</leaf_flag>
+                <readonly_flag>false</readonly_flag>
+            </entity>
+            <entity>
+                <name>Demographic Search</name>
+                <leaf_flag>true</leaf_flag>
+                <readonly_flag>false</readonly_flag>
+            </entity>
+            <entity>
+                <name>Insurance</name>
+                <leaf_flag>true</leaf_flag>
+                <readonly_flag>false</readonly_flag>
+            </entity>
+            <entity>
+                <name>Nicks Patient Payer Listing</name>
+                <leaf_flag>true</leaf_flag>
+                <readonly_flag>false</readonly_flag>
+            </entity>
+            <entity>
+                <name>Patient Face Sheet</name>
+                <leaf_flag>true</leaf_flag>
+                <readonly_flag>false</readonly_flag>
+            </entity>
+            <entity>
+                <name>Patient Schedule Report 3</name>
+                <leaf_flag>true</leaf_flag>
+                <readonly_flag>false</readonly_flag>
+            </entity>
+            <entity>
+                <name>Patient Schedule Report2</name>
+                <leaf_flag>true</leaf_flag>
+                <readonly_flag>false</readonly_flag>
+            </entity>
+            <entity>
+                <name>patrick</name>
+                <leaf_flag>true</leaf_flag>
+                <readonly_flag>false</readonly_flag>
+            </entity>
+            <entity>
+                <name>Payer ap</name>
+                <leaf_flag>true</leaf_flag>
+                <readonly_flag>false</readonly_flag>
+            </entity>
+            <entity>
+                <name>Payer</name>
+                <leaf_flag>true</leaf_flag>
+                <readonly_flag>false</readonly_flag>
+            </entity>
+            <entity>
+                <name>RM - Adj</name>
+                <leaf_flag>true</leaf_flag>
+                <readonly_flag>false</readonly_flag>
+            </entity>
+            <entity>
+                <name>RM - Adjustments</name>
+                <leaf_flag>true</leaf_flag>
+                <readonly_flag>false</readonly_flag>
+            </entity>
+            <entity>
+                <name>RM - Charges</name>
+                <leaf_flag>true</leaf_flag>
+                <readonly_flag>false</readonly_flag>
+            </entity>
+            <entity>
+                <name>RM - Payments</name>
+                <leaf_flag>true</leaf_flag>
+                <readonly_flag>false</readonly_flag>
+            </entity>
+            <entity>
+                <name>Sample Ledger (RM)</name>
+                <leaf_flag>true</leaf_flag>
+                <readonly_flag>false</readonly_flag>
+            </entity>
+            <entity>
+                <name>Sample Ledger</name>
+                <leaf_flag>true</leaf_flag>
+                <readonly_flag>false</readonly_flag>
+            </entity>
+            <entity>
+                <name>Testing 8447</name>
+                <leaf_flag>true</leaf_flag>
+                <readonly_flag>false</readonly_flag>
+            </entity>
+            <entity>
+                <name>YTD - RM2</name>
+                <leaf_flag>true</leaf_flag>
+                <readonly_flag>false</readonly_flag>
+            </entity>
+            <entity>
+                <name>YTD Dashboard - RM2</name>
+                <leaf_flag>true</leaf_flag>
+                <readonly_flag>false</readonly_flag>
+            </entity>
+            <entity>
+                <name>YTD Dashboard - RM3</name>
+                <leaf_flag>true</leaf_flag>
+                <readonly_flag>false</readonly_flag>
+            </entity>
+            <entity>
+                <name>YTD Dashboard</name>
+                <leaf_flag>true</leaf_flag>
+                <readonly_flag>false</readonly_flag>
+            </entity>
+            <entity>
+                <name>CFDS Reports</name>
+                <leaf_flag>false</leaf_flag>
+                <readonly_flag>false</readonly_flag>
+                <entity>
+                    <name>Aidab</name>
+                    <leaf_flag>true</leaf_flag>
+                    <readonly_flag>false</readonly_flag>
+                </entity>
+                <entity>
+                    <name>Bump and Waitlist</name>
+                    <leaf_flag>true</leaf_flag>
+                    <readonly_flag>false</readonly_flag>
+                </entity>
+                <entity>
+                    <name>Cancel Report (Final)</name>
+                    <leaf_flag>true</leaf_flag>
+                    <readonly_flag>false</readonly_flag>
+                </entity>
+                <entity>
+                    <name>Co-payment Listing Report</name>
+                    <leaf_flag>true</leaf_flag>
+                    <readonly_flag>false</readonly_flag>
+                </entity>
+                <entity>
+                    <name>DALESTEST</name>
+                    <leaf_flag>true</leaf_flag>
+                    <readonly_flag>false</readonly_flag>
+                </entity>
+                <entity>
+                    <name>Holes Report - Final (RF)</name>
+                    <leaf_flag>true</leaf_flag>
+                    <readonly_flag>false</readonly_flag>
+                </entity>
+                <entity>
+                    <name>Holes Report - RM</name>
+                    <leaf_flag>true</leaf_flag>
+                    <readonly_flag>false</readonly_flag>
+                </entity>
+                <entity>
+                    <name>No Show Report (Final)</name>
+                    <leaf_flag>true</leaf_flag>
+                    <readonly_flag>false</readonly_flag>
+                </entity>
+                <entity>
+                    <name>Patient Face Sheet (Final)</name>
+                    <leaf_flag>true</leaf_flag>
+                    <readonly_flag>false</readonly_flag>
+                </entity>
+                <entity>
+                    <name>Patient Face Sheet - Debugged</name>
+                    <leaf_flag>true</leaf_flag>
+                    <readonly_flag>false</readonly_flag>
+                </entity>
+                <entity>
+                    <name>Patient Face Sheet hacxked</name>
+                    <leaf_flag>true</leaf_flag>
+                    <readonly_flag>false</readonly_flag>
+                </entity>
+                <entity>
+                    <name>Patient Schedule Listing Report (Final)</name>
+                    <leaf_flag>true</leaf_flag>
+                    <readonly_flag>false</readonly_flag>
+                </entity>
+                <entity>
+                    <name>SuperBill</name>
+                    <leaf_flag>true</leaf_flag>
+                    <readonly_flag>false</readonly_flag>
+                </entity>
+                <entity>
+                    <name>Target Report (Final)</name>
+                    <leaf_flag>true</leaf_flag>
+                    <readonly_flag>false</readonly_flag>
+                </entity>
+            </entity>
+        </entity>
+    </entity>
+</reportlist>
